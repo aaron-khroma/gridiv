@@ -1,4 +1,4 @@
-import { COLUMN_COUNTS, gridWidth } from './index';
+import { COLUMN_COUNTS, gridWidth } from './index.js';
 
 describe('gridWidth', () => {
 	it('matches the 1140px Grid.Studio container at 12 columns', () => {
