@@ -16,7 +16,7 @@
 ## Install
 
 ```sh
-npm install gridiv gelement react
+npm install gridiv @styleeyes/gelement react
 ```
 
 ## Development
