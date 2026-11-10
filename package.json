@@ -51,14 +51,14 @@
 		"smoke": "node -e \"import('./dist/index.js')\""
 	},
 	"peerDependencies": {
-		"@styleeyes/gelement": "0.x",
+		"@styleeyes/g-element": "0.x",
 		"react": "^19.0.0"
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "^1.0.1",
 		"@changesets/cli": "^3.0.3",
 		"@eslint/js": "^10.0.1",
-		"@styleeyes/gelement": "^0.0.0",
+		"@styleeyes/g-element": "^0.0.0",
 		"@types/node": "^26.6.6",
 		"@types/react": "^19.3.0",
 		"eslint": "^10.14.0",

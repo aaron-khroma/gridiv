@@ -2,7 +2,7 @@
 
 **Grid-based content management for React.** Pages are _gridmaps_: reorderable, full-width **sections** whose content boxes (_gridivs_) are placed on a CSS grid. Each gridmap defines a layout per column count (12, 10, 8, 6, 4), and an auto-fit algorithm fills in any layout an editor hasn't defined yet.
 
-> ⚠️ **Pre-release (0.x).** Being built in the open. Interactivity comes from [GElement](https://github.com/aaron-khroma/gelement), a peer dependency.
+> ⚠️ **Pre-release (0.x).** Being built in the open. Interactivity comes from [GElement](https://github.com/aaron-khroma/g-element), a peer dependency.
 
 ## Status
 
@@ -16,7 +16,7 @@
 ## Install
 
 ```sh
-npm install gridiv @styleeyes/gelement react
+npm install gridiv @styleeyes/g-element react
 ```
 
 ## Development
