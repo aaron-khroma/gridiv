@@ -44,18 +44,21 @@
 		"test:watch": "vitest",
 		"lint": "eslint . && prettier --check .",
 		"format": "prettier --write .",
-		"check": "npm run typecheck && npm run lint && npm run test && npm run build",
+		"check": "npm run typecheck && npm run lint && npm run test && npm run build && npm run smoke",
 		"changeset": "changeset",
 		"release": "npm run build && changeset publish",
-		"prepublishOnly": "npm run build"
+		"prepublishOnly": "npm run build",
+		"smoke": "node -e \"import('./dist/index.js')\""
 	},
 	"peerDependencies": {
+		"@styleeyes/g-element": "0.x",
 		"react": "^19.0.0"
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "^1.0.1",
 		"@changesets/cli": "^3.0.3",
 		"@eslint/js": "^10.0.1",
+		"@styleeyes/g-element": "^0.0.0",
 		"@types/node": "^26.6.6",
 		"@types/react": "^19.3.0",
 		"eslint": "^10.14.0",
