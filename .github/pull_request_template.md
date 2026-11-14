@@ -6,5 +6,5 @@
 
 - [ ] `npm run check` passes locally
 - [ ] Added a changeset (`npm run changeset`) if this changes published behavior
-- [ ] Docs updated (`README.md` / `docs/`) if the API changed
+- [ ] Docs updated (`README.md` / `docs/`) if the API or internals changed
 - [ ] New UI is keyboard-operable and respect `prefers-reduced-motion`
