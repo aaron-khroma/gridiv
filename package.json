@@ -1,6 +1,6 @@
 {
 	"name": "gridiv",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A grid-based content management system for React: lay out content on CSS grids, per column count, in reorderable sections.",
 	"license": "MIT",
 	"author": "Aaron Clement",
