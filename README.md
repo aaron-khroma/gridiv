@@ -24,8 +24,10 @@ npm install gridiv @styleeyes/g-element react
 ```sh
 nvm use          # Node 26
 npm install
-npm run check    # typecheck, lint, test, build
+npm run check    # typecheck, lint, test, build, smoke
 ```
+
+**How it's built:** the [developer guide](docs/dev/README.md) maps the repo, explains each system and the concepts behind it, and links the official docs.
 
 Releases use [Changesets](https://github.com/changesets/changesets) (`npm run changeset`). Merging to `prime` opens a release PR, and merging that publishes to npm.
 
